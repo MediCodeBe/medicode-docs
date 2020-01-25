@@ -1,8 +1,22 @@
 site_name: MediCode Documentation
-
+site_description: MediCode Documentation
+site_author: Leroy Vermeulen, Jens Kusters
 theme:
   name: readthedocs
   highlightjs: true
   hljs_languages:
     - yaml
     - rust
+
+nav:
+  - 'Introduction': 'index.md'
+  - 'Basic features':
+      - Patients: 'basic features/patients.md'
+      - Transports: 'basic features/transports.md'
+      - Vehicles: 'basic features/vehicles.md'
+      - Locations: 'basic features/locations.md'
+      - Intervention reports: 'basic features/reports.md'
+
+  - 'Administrator features':
+      - Users: 'admin features/users.md'
+      - Permissions: 'admin features/permissions.md'

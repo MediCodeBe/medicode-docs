@@ -1,13 +1,13 @@
 #Transports
 
 ###Create a transport
-A transport is always linked to a patient. You need to create the transport from the patient's section by clicking on the green button in the patient's list. Or by clicking the "create new transport" button on the patient's page.
+A transport is always linked to a [patient](patients.md). You need to create the transport from the patient's section by clicking on the green button in the patient's list. Or by clicking the "create new transport" button on the patient's page.
 
 When creating a transport these fields are fillable.
 
-- **Pickup address** - *This is the address where the ambulance crew should pickup the patient. Each new address is registered in the locations section. The pickup location can be specified by filling in the "pickup department" field. (Required field)*
+- **Pickup address** - *This is the address where the ambulance crew should pickup the patient. Each new address is registered in the [locations](locations.md) section. The pickup location can be specified by filling in the "pickup department" field. (Required field)*
 - **Pickup time** - *This is the time when the ambulance crew should pick up the patient (Required field)*
-- **Delivery address** - *This is the address where the ambulance crew should deliver the patient. Each new address is registered in the locations section. The delivery location can be specified by filling in the "delivery department" field. (Required field)*
+- **Delivery address** - *This is the address where the ambulance crew should deliver the patient. Each new address is registered in the [locations](locations.md) section. The delivery location can be specified by filling in the "delivery department" field. (Required field)*
 - **Delivery time**  - *This is the time when the ambulance crew should deliver the patient (Required field)*
 - **Trip direction** - *This specifies whether it is an outward or a return trip (Required field)*
 - **Transport Applicant** - *This specifies who requested the transport. These values can be customised in the administrator dashboard, by default these are: "Private", "Doctor", "Hospital". (Required field)*
@@ -35,6 +35,8 @@ These are the default statuses:
 - Carrying patient
 - Arrived delivery address
 - Finished
+
+When a new transport is registered, the status will automatically be set to "Please assign vehicle"
 
 
 
