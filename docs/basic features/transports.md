@@ -33,7 +33,7 @@ These are the default statuses:
 - Heading to patient
 - Arrived at patient
 - Carrying patient
-- Arrived delivery address
+- Arrived at delivery address
 - Finished
 
 When a new transport is registered, the status will automatically be set to "Please assign vehicle"

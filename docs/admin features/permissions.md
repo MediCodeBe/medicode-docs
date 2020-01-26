@@ -26,3 +26,6 @@ By default MediCode comes with these roles:
 
 - **Admin** - *The admin role has ALL the permissions by default, this role is only given to a system administrator.*
 - **Dispatcher** - *The dispatcher role has the permission to create, edit patients and transports. Just enough to do the dispatching.*
+
+###User specific permissions
+You can add roles to a user, if you want to give 1 single user more permissions you can add it manually. You can specify some roles AND permissions to a user.

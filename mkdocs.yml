@@ -2,6 +2,7 @@ site_name: MediCode Documentation
 site_description: MediCode Documentation
 site_author: Leroy Vermeulen, Jens Kusters
 theme:
+  language: 'en'
   name: readthedocs
   highlightjs: true
   hljs_languages:
@@ -15,6 +16,7 @@ nav:
       - Transports: 'basic features/transports.md'
       - Vehicles: 'basic features/vehicles.md'
       - Locations: 'basic features/locations.md'
+      - Dispatching: 'basic features/dispatching.md'
       - Intervention reports: 'basic features/reports.md'
 
   - 'Administrator features':
